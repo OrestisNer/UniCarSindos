@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">UniCarSindos</string>
+    <string name="empty_string"> </string>
+
+    <!-- Action Strings-->
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="action_log_in">Είσοδος</string>
+    <string name="action_log_on_urge">Εγγραφή</string>
+    <string name="action_finish">Τέλος</string>
+    <string name="action_create">Δημιουργία</string>
+    <string name="action_offer_ride">Φτιάξε Διαδρομη</string>
+    <string name="action_take_ride">Ψάξε Διαδρομή</string>
+    <string name="action_next">Επόμενο</string>
+    <string name="action_map">Χάρτης</string>
+    <string name="action_refresh">Ανανέωση</string>
+    <string name="action_change">Επεξεργασία</string>
+    <string name="action_my_profile">Το προφίλ μου</string>
+
+    <!-- Hint Strings-->
+    <string name="email">Email</string>
+    <string name="password">Κωδικός</string>
+    <string name="first_name">Όνομα</string>
+    <string name="second_name">Επίθετο</string>
+    <string name="phone">Τηλέφωνο</string>
+    <string name="confirm_password">Επιβεβαίωση Κωδικού</string>
+    <string name="departure">Αναχώρηση</string>
+    <string name="arrival">Επιστροφή</string>
+
+
+    <!-- Label Strings -->
+    <string name="logon_title">Καλώς ήρθατε στο UniCarSindos. Για να συμμετάσχετε πρώτα θα πρέπει να δημιουργήσετε έναν λογαριασμό</string>
+    <string name="error_message">
+        An error has occurred. Please try again by clicking REFRESH
+    </string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+    <string name="see_profile">Κλικ για προβολή προφίλ</string>
+    <string name="first_and_second_name_label">Ον/νυμο:</string>
+    <string name="email_label">Email:</string>
+    <string name="phone_label">Τηλέφωνο:</string>
+    <string name="address_label">Διεύθυνση:</string>
+    <string name="zipcode_label">T.K:</string>
+    <string name="area_label">Περιοχή:</string>
+    <string name="information_label">Πληροφορίες</string>
+    <string name="details_label">Λεπτομέρειες</string>
+    <string name="open_map_urge">Για να δείτε το ακριβές σημείο στο χάρτη πατείστε το κουμπί</string>
+
+    <!--String for testing-->
+    <string name="email_testing">orestis.ner@gmail.com</string>
+    <string name="passwordd_testing">1</string>
+    <string name="address_testing">Ιθάκης 8</string>
+    <string name="zipcode_testing">55535</string>
+    <string name="area_testing">Πυλαία</string>
+    <string name="first_and_second_name_testing">Ορέστης Νεράντζης</string>
+    <string name="phone_testing">6951417952</string>
+    <string name="days_hours_testing">Δευτερα 11-13 Τριτη 11-13</string>
+    <string name="information_testing">Είμαι και γαμώ τα παιδιά και ψάχνω γκομενάκια</string>
+
+
+    <!--String for Days-->
+    <string name="monday">Δεύτέρα</string>
+    <string name="tuesday">Τρίτη</string>
+    <string name="wensday">Τετάρτη</string>
+    <string name="thursday">Πέμπτη</string>
+    <string name="friday">Παρασκευή</string>
+
+    <!-- String for tags-->
+    <string name="offer_a_ride_page_1_tag">OfferRidePage1Tag</string>
+    <string name="choose_type_tag">ChooseTypeTag</string>
+    <string name="offer_a_ride_page_2_tag">OfferRidePage2Tag</string>
+
+
+</resources>

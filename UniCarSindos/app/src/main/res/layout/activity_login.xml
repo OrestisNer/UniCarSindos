@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.unicarsindos.LoginActivity"
+    android:background="#BDBDBD">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+       <EditText
+           android:id="@+id/edit_text_email_login"
+           android:hint="@string/email"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:minWidth="215dp"
+           android:maxWidth="215dp"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/rounded_edit_text"
+           android:inputType="textEmailAddress"
+           android:gravity="center"
+           android:layout_above="@id/edit_text_password_login"/>
+
+       <EditText
+           android:id="@+id/edit_text_password_login"
+           android:hint="@string/password"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:minWidth="215dp"
+           android:maxWidth="215dp"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/rounded_edit_text"
+           android:layout_centerVertical="true"
+           android:gravity="center"
+           android:inputType="textPassword"/>
+
+       <Button
+           android:id="@+id/button_login"
+           android:text="@string/action_log_in"
+           android:layout_width="wrap_content"
+           android:layout_height="25dp"
+           android:background="@drawable/custom_button"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@id/edit_text_password_login"/>
+
+       <TextView
+           android:id="@+id/text_view_logon"
+           android:text="@string/action_log_on_urge"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/button_login"
+           android:layout_centerHorizontal="true"
+           android:clickable="true"
+           android:focusable="true"/>
+
+
+
+
+
+</RelativeLayout>

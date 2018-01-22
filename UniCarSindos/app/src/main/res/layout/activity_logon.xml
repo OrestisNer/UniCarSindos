@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.unicarsindos.LogonActivity"
+    android:orientation="vertical"
+    android:background="#BDBDBD">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:id="@+id/text_view_logon_title"
+        android:text="@string/logon_title"
+        android:textSize="17sp"
+        android:layout_margin="35dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edit_text_firstname_logon"
+        android:hint="@string/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/rounded_edit_text"
+        android:minWidth="215dp"
+        android:maxWidth="215dp"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/edit_text_secondname_logon"
+        android:hint="@string/second_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/rounded_edit_text"
+        android:minWidth="215dp"
+        android:maxWidth="215dp"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/edit_text_phone_logon"
+        android:hint="@string/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="phone"
+        android:background="@drawable/rounded_edit_text"
+        android:minWidth="215dp"
+        android:maxWidth="215dp"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center"
+        android:singleLine="true"/>
+
+
+    <EditText
+        android:id="@+id/edit_text_email_logon"
+        android:hint="@string/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/rounded_edit_text"
+        android:inputType="textEmailAddress"
+        android:minWidth="215dp"
+        android:maxWidth="215dp"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/edit_text_password_logon"
+        android:hint="@string/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edit_text"
+        android:minWidth="215dp"
+        android:maxWidth="215dp"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/edit_text_confirm_password_logon"
+        android:hint="@string/confirm_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/rounded_edit_text"
+        android:inputType="textPassword"
+        android:minWidth="215dp"
+        android:maxWidth="215dp"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/button_create"
+        android:text="@string/action_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.unicarsindos.CreateProfileActivity"
+    android:id="@+id/choose_type_layout"
+    android:tag="@string/choose_type_tag"
+    android:background="#BDBDBD">
+
+
+    <Button
+        android:id="@+id/button_offer_ride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view_seperate"
+        android:layout_centerHorizontal="true"
+        android:text="@string/action_offer_ride"/>
+
+    <View
+        android:id="@+id/view_seperate"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/button_take_ride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_seperate"
+        android:layout_centerHorizontal="true"
+        android:text="@string/action_take_ride"/>
+
+
+</RelativeLayout>

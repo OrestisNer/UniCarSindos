@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tag="@string/offer_a_ride_page_1_tag"
+    android:background="#BDBDBD">
+
+    <TextView
+        android:id="@+id/text_view_header_create_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_view_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/first_and_second_name_label"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginTop="10dp"
+            android:minWidth="215dp"
+            android:maxWidth="215dp"
+
+            android:background="@drawable/rounded_edit_text"
+            android:text="@string/first_and_second_name_testing"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_view_email_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="22sp"
+            android:text="@string/email_label" />
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:minWidth="215dp"
+            android:maxWidth="215dp"
+            android:textSize="22sp"
+            android:background="@drawable/rounded_edit_text"
+            android:text="@string/email_testing" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_view_phone_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="22sp"
+            android:text="@string/phone_label"/>
+
+        <EditText
+            android:id="@+id/edit_text_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:minWidth="215dp"
+            android:maxWidth="215dp"
+            android:textSize="22sp"
+            android:background="@drawable/rounded_edit_text"
+            android:text="@string/phone_testing"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_view_address_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/edit_text_address"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="22sp"
+            android:text="@string/address_label"/>
+
+        <EditText
+            android:id="@+id/edit_text_address"
+            android:minWidth="215dp"
+            android:background="@drawable/rounded_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="22sp"
+            android:inputType="textPostalAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_view_zipcode_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="83dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="22sp"
+            android:text="@string/zipcode_label"/>
+
+        <EditText
+           android:id="@+id/edit_text_zipcode"
+            android:minWidth="215dp"
+            android:background="@drawable/rounded_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginEnd="5dp"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_view_area_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="35dp"
+            android:textSize="22sp"
+            android:text="@string/area_label"/>
+
+        <EditText
+            android:id="@+id/edit_text_area"
+            android:minWidth="215dp"
+            android:background="@drawable/rounded_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginEnd="5dp"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/button_find_address"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/images"/>
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        tools:context="com.example.android.unicarsindos.CreateProfileActivity"/>
+
+    <Button
+        android:id="@+id/action_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/action_next" />
+
+</LinearLayout>
